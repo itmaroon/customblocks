@@ -1,0 +1,14 @@
+.is-style-fancy-quote {
+	color: tomato;
+}
+
+// 投稿本文内にのみ適用されるようにする。
+.entry-content{
+  @import "heading";
+}
+//エディター内のスタイル
+.editor-styles-wrapper, // ブロックの中身
+.editor-block-preview__content { // ブロックのプレビュー
+  @import "heading";
+}
+

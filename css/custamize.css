@@ -1,0 +1,106 @@
+.is-style-fancy-quote {
+  color: tomato;
+}
+
+.entry-content {
+  @import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Klee+One&family=M+PLUS+1+Code:wght@300;400;500;600;700&display=swap");
+}
+.entry-content h1.is-style-under-line, .entry-content h2.is-style-under-line, .entry-content h3.is-style-under-line, .entry-content h4.is-style-under-line, .entry-content h5.is-style-under-line, .entry-content h6.is-style-under-line {
+  padding-bottom: 5px;
+  border-bottom: 2px solid green;
+}
+.entry-content h1.is-style-left-line, .entry-content h2.is-style-left-line, .entry-content h3.is-style-left-line, .entry-content h4.is-style-left-line, .entry-content h5.is-style-left-line, .entry-content h6.is-style-left-line {
+  padding-left: 5px;
+  border-left: 5px solid #ddd;
+}
+.entry-content h1.is-style-side_handle {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1.5rem 3rem;
+  font-weight: 500;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: rgb(225, 233, 248);
+  box-shadow: 5px 5px 0px 0px #cad3f5;
+  color: #000;
+}
+@media (max-width: 767px) {
+  .entry-content h1.is-style-side_handle {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+}
+.entry-content h1.is-style-side_handle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -2.5rem;
+  width: 2rem;
+  height: 100%;
+  background: transparent url("../img/title_side.png") no-repeat center center/cover;
+}
+
+.editor-styles-wrapper,
+.editor-block-preview__content {
+  @import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Klee+One&family=M+PLUS+1+Code:wght@300;400;500;600;700&display=swap");
+}
+.editor-styles-wrapper h1.is-style-under-line, .editor-styles-wrapper h2.is-style-under-line, .editor-styles-wrapper h3.is-style-under-line, .editor-styles-wrapper h4.is-style-under-line, .editor-styles-wrapper h5.is-style-under-line, .editor-styles-wrapper h6.is-style-under-line,
+.editor-block-preview__content h1.is-style-under-line,
+.editor-block-preview__content h2.is-style-under-line,
+.editor-block-preview__content h3.is-style-under-line,
+.editor-block-preview__content h4.is-style-under-line,
+.editor-block-preview__content h5.is-style-under-line,
+.editor-block-preview__content h6.is-style-under-line {
+  padding-bottom: 5px;
+  border-bottom: 2px solid green;
+}
+.editor-styles-wrapper h1.is-style-left-line, .editor-styles-wrapper h2.is-style-left-line, .editor-styles-wrapper h3.is-style-left-line, .editor-styles-wrapper h4.is-style-left-line, .editor-styles-wrapper h5.is-style-left-line, .editor-styles-wrapper h6.is-style-left-line,
+.editor-block-preview__content h1.is-style-left-line,
+.editor-block-preview__content h2.is-style-left-line,
+.editor-block-preview__content h3.is-style-left-line,
+.editor-block-preview__content h4.is-style-left-line,
+.editor-block-preview__content h5.is-style-left-line,
+.editor-block-preview__content h6.is-style-left-line {
+  padding-left: 5px;
+  border-left: 5px solid #ddd;
+}
+.editor-styles-wrapper h1.is-style-side_handle,
+.editor-block-preview__content h1.is-style-side_handle {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1.5rem 3rem;
+  font-weight: 500;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: rgb(225, 233, 248);
+  box-shadow: 5px 5px 0px 0px #cad3f5;
+  color: #000;
+}
+@media (max-width: 767px) {
+  .editor-styles-wrapper h1.is-style-side_handle,
+.editor-block-preview__content h1.is-style-side_handle {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+}
+.editor-styles-wrapper h1.is-style-side_handle::after,
+.editor-block-preview__content h1.is-style-side_handle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -2.5rem;
+  width: 2rem;
+  height: 100%;
+  background: transparent url("../img/title_side.png") no-repeat center center/cover;
+}
+/*# sourceMappingURL=custamize.css.map */

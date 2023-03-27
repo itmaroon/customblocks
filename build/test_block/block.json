@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "block-namespace/block-test",
+  "version": "0.1.0",
+  "title": "test block",
+  "category": "widgets",
+  "icon": "nametag",
+  "description": "Custom Blocks のテストブロックです。",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "align": {
+      "type": "string",
+      "default": "none"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "cbLink": {
+      "type": "string",
+      "default": "none"
+    },
+    "linkLabel": {
+      "type": "string",
+      "default": "Check it out!"
+    },
+    "hasLinkNofollow": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "border",
+      "label": "Border"
+    }
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "block-test",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
